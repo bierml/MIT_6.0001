@@ -1,0 +1,20 @@
+// trigger file - if you've done problem 9 but no stories are popping up, you
+// should edit this file to contain triggers that will fire on current news
+// stories!
+
+// title trigger named t1
+t1,TITLE,China
+
+// description trigger named t2
+t2,TITLE,Trump
+
+t3,OR,t1,t2
+
+t4,DESCRIPTION,Japan
+
+t5,DESCRIPTION,billionaire
+
+t6,AND,t4,t5
+
+// the trigger list contains t1 and t2
+ADD,t3,t6

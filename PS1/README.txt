@@ -1,0 +1,1 @@
+Do chapter C after the lection 3.
